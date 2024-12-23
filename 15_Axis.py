@@ -1,5 +1,8 @@
 
 # USED OF AXIS 
+ 
+# axis = 0  --> vertically
+# axis = 1 --> horizontally
 
 import numpy as np
 

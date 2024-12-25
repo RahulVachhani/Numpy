@@ -16,7 +16,7 @@ print('Sum is :',sum)
 n3 = np.array([10,20,30])
 n4 = np.array([40,50,60])
 
-sum = np.sum([n3,n4],axis=1 )
+sum = np.sum([n3,n4],axis=1)
 print('sum is :',sum)
 
 

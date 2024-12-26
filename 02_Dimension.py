@@ -38,3 +38,23 @@ n5 = np.zeros([2,3])
 print(n5)
 print(type(n5))
 print(f'Dimension = {n5.ndim}')
+
+
+
+# INIT ARRAY WITH CUSTOM VALUE
+n6 = np.full([2,3],8)   # --> THIS WILL CREATE AN ARRAY OF 2 x 3 WITH VALUE 8
+print(n6)
+
+
+# RANDOM NUMBER OF ARRAY 
+n7 = np.random.randint(10,100,(2,3))   # THIS WILL CREATE ARRAY WITH RANDOM VALUE WITH RANGE OF 10 TO 100
+print(n7)
+
+# THIS WILL CREATE ARRAY WITH EVENLY SPACED 
+n8 = np.linspace(10, 30, 5)
+print(n8)
+
+
+# ARANGE()   --> THIS WILL LIKE GAP 
+n9 = np.arange(10,30,6)
+print(n9)
